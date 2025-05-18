@@ -1,5 +1,9 @@
 # geotechdata
 
+![PyPI](https://img.shields.io/pypi/v/geotechdata.svg)
+![Python Versions](https://img.shields.io/pypi/pyversions/geotechdata.svg)
+![License](https://img.shields.io/github/license/geocodes-eng/geotechdata)
+
 A Python package for managing geotechnical data, including points, boreholes, SPT data, lab test results, and groundwater information.
 
 ## Features
