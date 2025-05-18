@@ -1,21 +1,27 @@
 # geotechdata
-A Python package for managing and analyzing geotechnical investigation data. This package provides a flexible structure for handling project data, boreholes, soil layers and more
 
----
+A Python package for managing geotechnical data, including points, boreholes, SPT data, lab test results, and groundwater information.
 
 ## Features
 
-- **Main `Data` Class**: A base class for all types of investigations.
-- **Geotechnical Investigations**:
-  - Manage borehole data, including location, depth, and stratigraphy.
-  - Summarize geotechnical investigation details.
-- **Extensible Design**: Add new investigation types easily by extending the `Data` class.
-
----
+- **Point**: Store investigation locations with coordinates and metadata.
+- **BoreholeData & SPTData**: Manage borehole logs and Standard Penetration Test results.
+- **LabTestData**: Generic class for storing any type of lab test result.
+- **GroundwaterData**: Store groundwater measurements.
+- **Export**: Easily export data to CSV, JSON, Excel, or GeoJSON.
+- **Visualization**: Plot SPT blow counts vs. depth.
 
 ## Installation
 
-Install the package using `pip`:
-
 ```bash
 pip install geotechdata
+
+---
+
+## Examples and Usage
+
+For practical usage examples, see the [example Jupyter notebooks](https://github.com/geocodes-eng/geotechdata/tree/main/examples) in the `examples/` folder of this repository.
+
+You can open these notebooks directly on GitHub or download and run them locally to see how to use the package for real geotechnical data workflows.
+
+---
