@@ -15,6 +15,7 @@ A Python package for managing geotechnical data, including points, boreholes, SP
 
 ```bash
 pip install geotechdata
+```
 
 ---
 
