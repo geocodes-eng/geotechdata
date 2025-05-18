@@ -26,3 +26,15 @@ For practical usage examples, see the [example Jupyter notebooks](https://github
 You can open these notebooks directly on GitHub or download and run them locally to see how to use the package for real geotechnical data workflows.
 
 ---
+
+## Contributing
+
+Contributions are welcome!  
+If you have suggestions, bug reports, or would like to contribute code, please open an issue or submit a pull request on [GitHub](https://github.com/geocodes-eng/geotechdata).
+
+---
+
+## License
+
+This project is licensed under the MIT License.  
+See the [LICENSE](LICENSE) file for details.
